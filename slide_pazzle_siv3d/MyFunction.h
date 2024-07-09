@@ -12,7 +12,6 @@ const int BOARD_HEIGHT = 4;
 const int BLANK_POS = 16;
 const Size TILE_SIZE = { 128, 128 };//タイル１枚のサイズ　幅、高さ
 const Size WSIZE = BOARD_WIDTH * TILE_SIZE;//windowの大きさ 4x {128, 128} 縦横同じなのでどっちかかけてやる
-//int a = 100;
 //String str = ToString(a); これで数値と文字列の変換ができる(Siv3dの機能)
 //Rect rec{ x,y,width };
 //rec.center();　.centerで真ん中の座標をとる

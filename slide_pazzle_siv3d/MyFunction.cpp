@@ -20,7 +20,7 @@ void TitleUpdate()
 
 }
 //タイトル画面の描画
-void TitleDraw()//後で工夫する
+void TitleDraw()
 {
 	String TitleStr = U"THE SLIDE PUZZLE";
 	String StartStr = U"Push Here to Start GAME ";
@@ -58,7 +58,7 @@ void PlayUpdate(Board& _board)
 					}
 					else
 					{
-						Print << _board.tile[j][i] << U";Umm,,,,,,,,,,,, It Can't Move";
+						//Print << _board.tile[j][i] << U"It Can't Move!";
 					}
 				}
 			}
